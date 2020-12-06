@@ -18,6 +18,8 @@ jobs:
     - uses: subosito/flutter-action@v1
       with:
         flutter-version: '1.22.4'
+    - name: check health
+      run: flutter doctor
     - run: flutter pub get
     - run: flutter test
     - run: flutter build apk
