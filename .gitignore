@@ -23,4 +23,5 @@ doc/api/
 .flutter-plugins
 .flutter-plugins-dependencies
 
+.bash_history
 .pub-cache/
