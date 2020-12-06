@@ -19,7 +19,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
+      - name: Move
+        run: cd tonne
       - name: Print Dart SDK version
         run: dart --version
 
